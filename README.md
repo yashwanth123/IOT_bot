@@ -42,16 +42,6 @@ To understand networking principles by building a small-scale robot that can be 
 
 ---
 
-## 🧪 Procedures & Configuration
-
-- Enable `SSH` and `I2C` on Raspberry Pi using `sudo raspi-config`.
-- Install required libraries:
-
-```bash
-sudo pip3 install adafruit-pca9685
-sudo apt-get install python3-rpi.gpio
-
-
 Wiring is done as per standard Raspberry Pi robot guides.
 
 IP-based commands sent via Putty terminal.
@@ -88,13 +78,21 @@ https://rootsaid.com/robot-control-over-wifi/
 
 https://osoyoo.com/2020/08/01/how-to-use-osoyoo-model-pi-l298n-motor-driver-board-in-raspberry-pi-robot-car/
 
-YouTube Guide 1
-
-YouTube Guide 2
-
 👨‍🔬 Authors
 Yashwanth Sai
 
 Sandpita Subir Khare
 📅 Aug 2021 – Dec 2021
 📍 [Project under Networking & IoT course]
+
+
+## 🧪 Procedures & Configuration
+
+- Enable `SSH` and `I2C` on Raspberry Pi using `sudo raspi-config`.
+- Install required libraries:
+
+```bash
+sudo pip3 install adafruit-pca9685
+sudo apt-get install python3-rpi.gpio
+
+
